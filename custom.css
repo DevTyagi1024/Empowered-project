@@ -1,0 +1,965 @@
+/* line 1, ../sass/custom.scss */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', 'Open Sans';
+}
+
+/* line 9, ../sass/custom.scss */
+.container-fluid {
+  width: unset !important;
+}
+
+@media (min-width: 1600px) {
+  /* line 16, ../sass/custom.scss */
+  .container {
+    max-width: 1580px !important;
+    width: 100%;
+    margin: 0px auto;
+  }
+}
+/* line 27, ../sass/custom.scss */
+.header-sec {
+  padding: 23px 0;
+}
+/* line 30, ../sass/custom.scss */
+.header-sec .header-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+/* line 35, ../sass/custom.scss */
+.header-sec .header-wrap div.logo {
+  max-width: 250px;
+  width: 100%;
+}
+/* line 39, ../sass/custom.scss */
+.header-sec .header-wrap div.logo img {
+  height: 60px;
+  width: 100%;
+}
+/* line 45, ../sass/custom.scss */
+.header-sec .header-wrap .btn-wrap {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  max-width: 400px;
+  justify-content: end;
+  height: 60px;
+  width: 100%;
+}
+/* line 54, ../sass/custom.scss */
+.header-sec .header-wrap .btn-wrap a.number {
+  max-width: fit-content;
+  display: block;
+  padding: 16px 32px;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+  background-color: #AAC4D1;
+}
+/* line 67, ../sass/custom.scss */
+.header-sec .header-wrap .btn-wrap .hamburger {
+  max-width: 89px;
+  width: 100%;
+  position: relative;
+}
+
+/* line 80, ../sass/custom.scss */
+.main-banner {
+  position: relative;
+  box-shadow: 0px 0px 15px 0px #000000;
+}
+/* line 84, ../sass/custom.scss */
+.main-banner img {
+  width: 100%;
+  height: 800px;
+  padding: 0;
+  object-fit: cover;
+}
+/* line 91, ../sass/custom.scss */
+.main-banner .ban-wrap {
+  position: absolute;
+  right: 160px;
+  top: 190px;
+  max-width: 600px;
+  width: 100%;
+}
+/* line 103, ../sass/custom.scss */
+.main-banner .title h1 {
+  color: #FFF;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 90px;
+  text-align: center;
+  margin: 0;
+}
+/* line 113, ../sass/custom.scss */
+.main-banner .content-wrp {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 50px;
+}
+/* line 122, ../sass/custom.scss */
+.main-banner .content-wrp a.enro {
+  max-width: fit-content;
+  display: block;
+  padding: 10px 50px;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+  background-color: #EBC137;
+  transition: 0.3s ease-in-out;
+}
+/* line 135, ../sass/custom.scss */
+.main-banner .content-wrp a.enro:hover {
+  color: #fff;
+  background-color: #BD8025;
+}
+
+/* line 146, ../sass/custom.scss */
+.inner {
+  position: relative;
+  box-shadow: 0px 0px 15px 0px #000000;
+}
+/* line 150, ../sass/custom.scss */
+.inner img {
+  width: 100%;
+  height: 800px;
+  padding: 0;
+  object-fit: cover;
+}
+/* line 157, ../sass/custom.scss */
+.inner .inner-desc {
+  position: absolute;
+  right: 0px;
+  left: 0;
+  margin: 0px auto;
+  top: 190px;
+  max-width: 600px;
+  width: 100%;
+}
+/* line 169, ../sass/custom.scss */
+.inner .title h1 {
+  color: #FFF;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 90px;
+  text-align: center;
+  margin: 0;
+}
+
+/* line 181, ../sass/custom.scss */
+.vision.empower-reverse .emp-wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 0;
+}
+/* line 186, ../sass/custom.scss */
+.vision.empower-reverse .emp-wrapper .vis-desc-wrap {
+  background-color: #EBC137;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+/* line 196, ../sass/custom.scss */
+.vision.empower-reverse .emp-wrapper .vis-desc-wrap .des h3 {
+  font-size: 38px;
+  text-transform: uppercase;
+}
+/* line 201, ../sass/custom.scss */
+.vision.empower-reverse .emp-wrapper .vis-desc-wrap .des span {
+  color: #BD8025;
+  font-size: 38px;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 48px;
+}
+/* line 212, ../sass/custom.scss */
+.vision.empower-reverse .emp-wrapper .vis-desc-wrap::before {
+  position: absolute;
+  content: "";
+  width: 150px;
+  height: 150px;
+  top: 0;
+  left: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='150' height='150' viewBox='0 0 316 300' fill='none'%3E%3Cmask id='mask0_1_292' style='mask-type:luminance' maskUnits='userSpaceOnUse' x='-13' y='0' width='329' height='300'%3E%3Cpath d='M315.24 0.720215H-12.28V299.05H315.24V0.720215Z' fill='white'/%3E%3C/mask%3E%3Cg mask='url(%23mask0_1_292)'%3E%3Cpath d='M258.2 -37.9998C257.019 -36.3517 255.989 -34.6014 255.12 -32.7698C249.85 -23.4998 244.2 -14.4598 238.34 -5.53979C231.75 4.54021 224.82 14.4002 217.5 23.9502C209.874 34.0815 201.554 43.6713 192.6 52.6503C189.17 56.0303 185.82 59.5203 181.66 62.0503C177.25 64.7303 172.3 65.6603 167.27 66.0503C157.82 66.7303 148.63 65.2403 139.57 62.7803C130.538 60.324 121.891 56.6217 113.88 51.7803C108.44 48.5103 103.08 45.1402 97.81 41.5902C93.35 38.5902 88.55 38.8102 83.71 40.4802C80.7531 41.4205 78.1923 43.3165 76.43 45.8702C74.11 49.3402 74.54 53.7102 77.43 57.6002C79.9 60.9702 83.25 63.3903 86.5 65.9003C91.29 69.6003 96.35 72.9802 100.84 77.0802C103.444 79.5122 105.805 82.1915 107.89 85.0802C114.31 84.6102 120.77 84.5103 127.2 84.6403C143.03 84.9703 158.74 86.9803 174.48 88.5303C175.495 88.5548 176.473 88.9157 177.26 89.5565C178.048 90.1973 178.6 91.0815 178.83 92.0702C179.009 92.7752 179.044 93.5091 178.934 94.228C178.823 94.947 178.569 95.6363 178.186 96.255C177.804 96.8737 177.301 97.409 176.707 97.8291C176.113 98.2492 175.441 98.5454 174.73 98.7002C171.198 99.2905 167.62 99.5616 164.04 99.5103C155.04 99.7503 146.1 99.4003 137.14 99.4303C135.976 99.3553 134.808 99.5047 133.7 99.8702C132.41 100.38 132.13 101.33 132.99 102.41C133.658 103.27 134.491 103.988 135.44 104.52C137.628 105.659 139.944 106.532 142.34 107.12C147.34 108.42 152.47 109.35 157.6 110.18C166.02 111.53 174.48 112.5 182.94 113.37C184.022 113.415 185.081 113.69 186.048 114.176C187.016 114.663 187.868 115.349 188.55 116.19C188.975 116.715 189.279 117.326 189.44 117.982C189.601 118.637 189.616 119.32 189.484 119.982C189.351 120.644 189.074 121.268 188.672 121.811C188.271 122.353 187.754 122.8 187.16 123.12C185.781 123.811 184.262 124.176 182.72 124.19C179.066 124.352 175.405 124.228 171.77 123.82C162.88 122.97 154 122.03 145.1 121.19C142.083 120.818 139.026 120.943 136.05 121.56C135.38 121.73 134.56 121.87 134.42 122.71C134.28 123.55 134.95 123.96 135.49 124.42C137.068 125.576 138.849 126.424 140.74 126.92C151.48 130.5 162.41 133.54 173.22 136.92C177.047 138.029 180.812 139.341 184.5 140.85C188.59 142.68 189.85 147.42 187.1 150.66C185.33 152.73 182.92 153.27 180.32 153.07C175.6 152.68 171.14 151.18 166.71 149.65C160.5 147.51 154.35 145.25 148.15 143.08C145.4 142.002 142.463 141.479 139.51 141.54C138.589 141.554 137.683 141.776 136.86 142.19C136.641 142.261 136.445 142.392 136.295 142.567C136.146 142.742 136.047 142.955 136.011 143.183C135.975 143.411 136.002 143.644 136.09 143.857C136.178 144.07 136.324 144.255 136.51 144.39C137.137 145.009 137.896 145.477 138.73 145.76C142.09 147.183 145.308 148.921 148.34 150.95C156.9 156.36 165.07 162.27 173.08 168.42C174.625 169.554 175.887 171.029 176.77 172.73C177.187 173.479 177.427 174.314 177.471 175.171C177.515 176.027 177.362 176.882 177.024 177.67C176.686 178.458 176.172 179.158 175.521 179.716C174.87 180.274 174.1 180.676 173.27 180.89C172.002 181.23 170.676 181.292 169.382 181.073C168.087 180.853 166.856 180.358 165.77 179.62C164.414 178.662 163.124 177.613 161.91 176.48C151.333 167.92 139.394 161.196 126.59 156.59C117.95 153.5 109.08 151.59 99.85 152.23C96.6712 152.337 93.5738 153.263 90.8581 154.918C88.1424 156.574 85.9006 158.903 84.35 161.68C82.2754 165.244 81.0312 169.229 80.71 173.34C83.0935 171.993 85.4065 170.524 87.64 168.94C88.5628 168.234 89.6441 167.764 90.79 167.57C91.0797 167.479 91.3882 167.464 91.6854 167.527C91.9826 167.59 92.2584 167.729 92.486 167.931C92.7135 168.132 92.8851 168.389 92.9839 168.676C93.0827 168.963 93.1055 169.271 93.05 169.57C92.9679 170.863 92.588 172.119 91.94 173.24C89.02 178.6 84.36 182.24 79.61 185.82C79.53 186.4 79.41 186.96 79.33 187.53C79.1176 189.472 78.5552 191.359 77.67 193.1C77.0011 194.482 75.8558 195.576 74.4447 196.18C73.0336 196.785 71.4517 196.859 69.99 196.39C69.0941 196.11 68.2159 195.776 67.36 195.39C62.8 199.07 58.09 202.56 53.76 206.5C50.06 209.84 46.25 213.1 43.82 217.58C42.9896 218.933 42.493 220.463 42.3713 222.046C42.2495 223.628 42.5062 225.217 43.12 226.68C43.6226 227.812 44.3499 228.829 45.2577 229.671C46.1655 230.513 47.235 231.162 48.4011 231.578C49.5672 231.994 50.8058 232.169 52.0415 232.092C53.2773 232.015 54.4845 231.688 55.59 231.13C58.4048 229.521 61.0427 227.621 63.46 225.46C73.7 217.19 83.55 208.46 93.55 199.88C99.43 194.88 105.22 189.75 111.32 185.01C113.055 183.586 115.084 182.561 117.26 182.01C119.33 181.56 120.19 182.42 119.67 184.53C119.087 186.521 118.232 188.422 117.13 190.18C114.39 195.09 110.85 199.45 107.39 203.86C99.95 213.36 92.21 222.58 85.15 232.36C82.3593 235.975 79.9624 239.877 78 244C77.4797 245.02 77.1748 246.135 77.1042 247.278C77.0337 248.42 77.199 249.565 77.59 250.64C78.98 254.09 82.59 255.64 86.46 254.58C88.9379 253.797 91.0978 252.237 92.62 250.13C99.83 240.87 107.23 231.81 114.93 222.97C120.29 216.83 125.76 210.8 131.7 205.21C134.244 202.708 137.035 200.47 140.03 198.53C141.751 197.427 143.707 196.742 145.74 196.53C147.74 196.35 148.74 197.38 148.35 199.38C147.934 201.08 147.186 202.68 146.15 204.09C140.22 213.34 134.23 222.56 128.33 231.86C124.575 237.592 121.159 243.539 118.1 249.67C116.94 252.09 116.27 254.56 117.45 257.2C119.63 262.07 126.03 264.77 130.58 258.9C134.8 253.45 139.09 248.07 143.4 242.67C148.19 236.67 152.82 230.54 157.46 224.42C163.72 216.134 169.683 207.64 175.35 198.94C181.242 189.975 186.517 180.621 191.14 170.94C196.02 160.5 199.98 149.72 201.32 138.16C201.909 133.54 201.882 128.863 201.24 124.25C201.121 123.513 201.297 122.759 201.73 122.15C210.397 108.917 219.473 95.9735 228.96 83.3202C235.787 74.2002 242.84 65.2669 250.12 56.5203C258.12 46.9403 266.47 37.6603 275.23 28.8103C283.721 20.0819 292.923 12.0743 302.74 4.87024C302.98 4.69024 314.95 -9.44971 315.2 -9.57971C300.09 -23.7497 273.27 -23.8998 258.2 -38.0598' fill='%23BD8025'/%3E%3Cpath d='M67.37 195.42C68.2322 195.799 69.1134 196.133 70.01 196.42C71.4717 196.884 73.0513 196.805 74.4598 196.199C75.8683 195.593 77.0115 194.5 77.68 193.12C78.5651 191.383 79.1275 189.499 79.34 187.56C79.42 186.98 79.54 186.41 79.62 185.85C79.68 184.85 79.69 183.77 79.79 182.76C80.1 179.62 80.17 176.47 80.72 173.38C81.0411 169.266 82.2852 165.277 84.36 161.71C85.9085 158.933 88.1482 156.603 90.8621 154.945C93.5759 153.288 96.6719 152.359 99.85 152.25C109.09 151.62 117.96 153.52 126.6 156.63C139.402 161.231 151.341 167.947 161.92 176.5C163.129 177.639 164.419 178.688 165.78 179.64C166.86 180.385 168.091 180.885 169.384 181.104C170.678 181.324 172.004 181.257 173.27 180.91C174.099 180.698 174.869 180.299 175.52 179.742C176.171 179.186 176.685 178.489 177.024 177.702C177.363 176.916 177.518 176.063 177.475 175.208C177.433 174.353 177.195 173.519 176.78 172.77C175.897 171.067 174.635 169.588 173.09 168.45C165.09 162.3 156.9 156.38 148.36 150.99C145.325 148.959 142.104 147.221 138.74 145.8C137.911 145.514 137.158 145.042 136.54 144.42C136.35 144.287 136.202 144.103 136.11 143.89C136.019 143.677 135.989 143.443 136.023 143.213C136.057 142.984 136.155 142.769 136.304 142.592C136.454 142.415 136.65 142.282 136.87 142.21C137.697 141.801 138.607 141.586 139.53 141.58C142.481 141.514 145.415 142.037 148.16 143.12C154.37 145.29 160.51 147.55 166.72 149.69C171.15 151.22 175.61 152.69 180.32 153.09C182.93 153.31 185.32 152.77 187.12 150.69C189.86 147.46 188.6 142.69 184.51 140.89C180.827 139.368 177.061 138.056 173.23 136.96C162.42 133.52 151.49 130.49 140.75 126.89C138.853 126.402 137.067 125.553 135.49 124.39C134.96 123.95 134.3 123.48 134.43 122.68C134.56 121.88 135.43 121.68 136.07 121.55C139.03 120.937 142.07 120.813 145.07 121.18C153.97 122.02 162.85 122.95 171.74 123.8C175.375 124.21 179.036 124.331 182.69 124.16C184.226 124.162 185.743 123.821 187.13 123.16C187.722 122.839 188.237 122.391 188.637 121.849C189.038 121.306 189.315 120.683 189.448 120.022C189.582 119.361 189.569 118.679 189.41 118.024C189.251 117.369 188.951 116.757 188.53 116.23C187.847 115.391 186.994 114.705 186.027 114.219C185.06 113.733 184.001 113.457 182.92 113.41C174.45 112.52 165.99 111.55 157.57 110.2C152.44 109.39 147.35 108.45 142.31 107.14C139.91 106.555 137.59 105.682 135.4 104.54C134.456 104.012 133.627 103.302 132.96 102.45C132.1 101.37 132.38 100.45 133.67 99.9003C134.776 99.5266 135.945 99.3736 137.11 99.4502C146.11 99.4502 155.06 99.7603 164.02 99.5503C167.6 99.5906 171.177 99.3195 174.71 98.7403C175.421 98.5833 176.094 98.2848 176.687 97.8626C177.281 97.4403 177.784 96.903 178.165 96.2825C178.547 95.662 178.8 94.9711 178.909 94.2509C179.018 93.5307 178.981 92.7959 178.8 92.0902C178.57 91.1052 178.018 90.2248 177.232 89.5876C176.447 88.9503 175.471 88.5924 174.46 88.5702C158.71 87.0002 143 85.0103 127.17 84.6603C120.73 84.5303 114.29 84.6603 107.86 85.1003C100.313 85.6167 92.8528 87.0128 85.63 89.2603C80.4934 90.8326 75.7138 93.394 71.56 96.8003C71.1129 97.1818 70.5371 97.3784 69.95 97.3503C56.29 97.0903 42.66 96.3503 29.04 95.0403C16.5097 93.8863 4.05368 92.0333 -8.26999 89.4903C-8.74998 89.3803 -9.21998 89.2102 -9.68998 89.0802C-20.3567 100.414 -30.9967 111.747 -41.61 123.08C-38.61 122.97 -35.61 122.84 -32.61 122.74C-21.78 122.46 -10.96 122.58 -0.139984 123.29C12.4135 123.982 24.8853 125.741 37.14 128.55C43.96 130.19 48.68 134.16 52.2 139.88C56.1447 146.301 58.8767 153.392 60.26 160.8C61.93 167.91 61.91 175.14 61.76 182.37C61.76 183.29 61.76 184.22 61.76 185.12C61.48 189.3 63.36 192.37 66.63 194.76C66.89 194.95 67.15 195.17 67.41 195.38' fill='white'/%3E%3Cpath d='M61.7701 182.42C61.9101 175.19 61.9301 167.96 60.2601 160.84C55.9201 163.15 51.5401 165.42 47.0401 167.47C40.1042 170.621 32.9608 173.294 25.6601 175.47C23.612 175.993 21.7153 176.989 20.1225 178.379C18.5298 179.768 17.2856 181.512 16.4901 183.47C13.9301 189.78 17.8201 195.47 24.6401 195.56C27.7156 195.458 30.7447 194.78 33.5701 193.56C40.5701 190.98 47.5701 188.22 54.5701 185.39C56.9801 184.39 59.3801 183.39 61.7801 182.39' fill='%23BD8025'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+}
+/* line 225, ../sass/custom.scss */
+.vision.empower-reverse .emp-wrapper .vision-wrap {
+  background-color: unset;
+}
+/* line 229, ../sass/custom.scss */
+.vision.empower-reverse .emp-wrapper .emp-img-wrap {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  background-color: #EBC137;
+  position: relative;
+}
+/* line 236, ../sass/custom.scss */
+.vision.empower-reverse .emp-wrapper .emp-img-wrap::after {
+  position: absolute;
+  content: "";
+  width: 135px;
+  left: -67px;
+  z-index: 2;
+  height: 137px;
+  background-repeat: no-repeat;
+  bottom: -68px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='136' height='135' viewBox='0 0 136 135' fill='none'%3E%3Cpath d='M0.810059 67.6699C17.5218 64.6511 32.9122 56.5985 44.9204 44.5903C56.9286 32.5821 64.9812 17.1917 68 0.47998C71.0188 17.1917 79.0714 32.5821 91.0796 44.5903C103.088 56.5985 118.478 64.6511 135.19 67.6699C118.478 70.6874 103.087 78.7396 91.0781 90.748C79.0697 102.756 71.0174 118.148 68 134.86C64.9826 118.148 56.9303 102.756 44.9219 90.748C32.9134 78.7396 17.5223 70.6874 0.810059 67.6699Z' fill='%23AAC4D1'/%3E%3C/svg%3E");
+}
+/* line 249, ../sass/custom.scss */
+.vision.empower-reverse .emp-wrapper .emp-img-wrap img {
+  max-width: 100%;
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  border-top-left-radius: 104px;
+}
+/* line 259, ../sass/custom.scss */
+.vision.empower-reverse .emp-wrapper a.read-more:hover {
+  background-color: #BD8025;
+  color: #fff;
+}
+
+/* line 273, ../sass/custom.scss */
+.location {
+  padding: 100px 0;
+  background-color: #FEF8E8;
+}
+/* line 277, ../sass/custom.scss */
+.location .location-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 142px;
+}
+/* line 283, ../sass/custom.scss */
+.location .location-wrap .img-wrap {
+  max-width: 500px;
+  width: 100%;
+}
+/* line 287, ../sass/custom.scss */
+.location .location-wrap .img-wrap img {
+  height: 500px;
+  border-radius: 50%;
+  object-fit: cover;
+  width: 100%;
+  border: 8px solid #BD8025;
+}
+/* line 296, ../sass/custom.scss */
+.location .location-wrap .desc-wrap {
+  max-width: 600px;
+  width: 100%;
+  text-align: left;
+}
+/* line 301, ../sass/custom.scss */
+.location .location-wrap .desc-wrap h3 {
+  font-size: 38px;
+  line-height: 48px;
+  color: #EBC137;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+/* line 308, ../sass/custom.scss */
+.location .location-wrap .desc-wrap h3 span {
+  color: #BD8025;
+  font-size: 38px;
+  line-height: 48px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+/* line 317, ../sass/custom.scss */
+.location .location-wrap .desc-wrap p {
+  font-size: 34px;
+  line-height: 44px;
+  color: #231F20;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 28px;
+}
+/* line 326, ../sass/custom.scss */
+.location .location-wrap .desc-wrap span {
+  font-size: 34px;
+  line-height: 44px;
+  color: #231F20;
+  font-weight: 400;
+}
+/* line 333, ../sass/custom.scss */
+.location .location-wrap .desc-wrap a.Book {
+  max-width: fit-content;
+  display: block;
+  padding: 10px 50px;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+  background-color: #EBC137;
+  margin-top: 52px;
+  transition: 0.3s ease-in-out;
+}
+/* line 347, ../sass/custom.scss */
+.location .location-wrap .desc-wrap a.Book:hover {
+  color: #fff;
+  background-color: #BD8025;
+}
+
+/* line 361, ../sass/custom.scss */
+.enrich {
+  padding: 80px 0 108px;
+}
+/* line 364, ../sass/custom.scss */
+.enrich .enrich-card-wrap {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+}
+/* line 372, ../sass/custom.scss */
+.enrich .enrich-card-wrap .en-card {
+  max-width: 380px;
+  width: 100%;
+  background-color: #AAC4D1;
+  border-top-right-radius: 73px;
+  border-bottom-left-radius: 73px;
+  position: relative;
+  overflow: hidden;
+  height: 470px;
+}
+/* line 382, ../sass/custom.scss */
+.enrich .enrich-card-wrap .en-card .content-overlay {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  background: #EBC137 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+/* line 397, ../sass/custom.scss */
+.enrich .enrich-card-wrap .en-card .en-content-overlay {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+/* line 414, ../sass/custom.scss */
+.enrich .enrich-card-wrap .en-card .en-content-overlay h3 {
+  color: #FFF;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 48px;
+}
+/* line 423, ../sass/custom.scss */
+.enrich .enrich-card-wrap .en-card .en-content-overlay p {
+  color: #FFF;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+}
+/* line 435, ../sass/custom.scss */
+.enrich .enrich-card-wrap .en-card:hover .content-overlay {
+  opacity: 0.73;
+}
+/* line 439, ../sass/custom.scss */
+.enrich .enrich-card-wrap .en-card:hover .en-desc-wrap {
+  opacity: 0;
+}
+/* line 443, ../sass/custom.scss */
+.enrich .enrich-card-wrap .en-card:hover .en-content-overlay {
+  top: 35%;
+  opacity: 1;
+  width: 100%;
+}
+/* line 451, ../sass/custom.scss */
+.enrich .enrich-card-wrap .en-card:hover .en-img-wrap img {
+  object-fit: cover;
+  transition: 0.3s ease-in;
+}
+/* line 463, ../sass/custom.scss */
+.enrich .enrich-card-wrap .en-card .en-img-wrap img {
+  object-fit: cover;
+  max-width: 100%;
+  width: 100%;
+  height: 340px;
+  border-bottom-left-radius: 73px;
+  border-top-right-radius: 73px;
+  transition: 0.3s ease-in;
+}
+/* line 474, ../sass/custom.scss */
+.enrich .enrich-card-wrap .en-card .en-desc-wrap {
+  padding: 23px 45px 20px 70px;
+  text-align: center;
+}
+/* line 478, ../sass/custom.scss */
+.enrich .enrich-card-wrap .en-card .en-desc-wrap p {
+  font-size: 26px;
+  line-height: 36px;
+  color: #fff;
+  margin: 0;
+  font-weight: 700;
+}
+/* line 489, ../sass/custom.scss */
+.enrich .enrich-card-wrap a {
+  text-decoration: none;
+}
+/* line 495, ../sass/custom.scss */
+.enrich h2 {
+  color: #7497A5;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  text-shadow: 0px 2px;
+  margin: 0;
+  margin-bottom: 72px;
+  text-transform: uppercase;
+}
+/* line 506, ../sass/custom.scss */
+.enrich h2 span {
+  color: #AAC4D1;
+  text-shadow: 0px 2px;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+
+/* line 523, ../sass/custom.scss */
+.vision .vis-wrapper {
+  display: flex;
+  padding: 0;
+}
+/* line 528, ../sass/custom.scss */
+.vision .vision-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #BD8025;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* line 539, ../sass/custom.scss */
+.vision .vis-img-wrap {
+  width: 100%;
+  position: relative;
+  height: 100%;
+}
+/* line 545, ../sass/custom.scss */
+.vision .vis-img-wrap::after {
+  position: absolute;
+  content: "";
+  width: 135px;
+  right: -66px;
+  height: 137px;
+  background-repeat: no-repeat;
+  bottom: -68px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='136' height='135' viewBox='0 0 136 135' fill='none'%3E%3Cpath d='M0.810059 67.6699C17.5218 64.6511 32.9122 56.5985 44.9204 44.5903C56.9286 32.5821 64.9812 17.1917 68 0.47998C71.0188 17.1917 79.0714 32.5821 91.0796 44.5903C103.088 56.5985 118.478 64.6511 135.19 67.6699C118.478 70.6874 103.087 78.7396 91.0781 90.748C79.0697 102.756 71.0174 118.148 68 134.86C64.9826 118.148 56.9303 102.756 44.9219 90.748C32.9134 78.7396 17.5223 70.6874 0.810059 67.6699Z' fill='%23AAC4D1'/%3E%3C/svg%3E");
+}
+/* line 556, ../sass/custom.scss */
+.vision .vis-img-wrap img {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-right-radius: 104px;
+}
+
+/* line 566, ../sass/custom.scss */
+.vis-desc-wrap {
+  max-width: 100%;
+  background-color: #BD8025;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* line 575, ../sass/custom.scss */
+.vis-desc-wrap .des {
+  padding-left: 50px;
+}
+/* line 580, ../sass/custom.scss */
+.vis-desc-wrap .des .con-desc {
+  max-width: 450px;
+  width: 100%;
+  padding: 60px 0;
+}
+/* line 586, ../sass/custom.scss */
+.vis-desc-wrap .des h3 {
+  font-size: 38px;
+  line-height: 48px;
+  margin: 0;
+  text-transform: uppercase;
+  color: #fff;
+}
+/* line 593, ../sass/custom.scss */
+.vis-desc-wrap .des h3 span {
+  color: #EBC137;
+  font-size: 38px;
+  line-height: 48px;
+}
+/* line 601, ../sass/custom.scss */
+.vis-desc-wrap .des p {
+  font-size: 18px;
+  color: #FFF;
+  font-weight: 700;
+  line-height: 28px;
+  margin: 0;
+  padding: 34px 0 42px;
+}
+/* line 611, ../sass/custom.scss */
+.vis-desc-wrap .des a.read-more {
+  max-width: fit-content;
+  display: block;
+  padding: 10px 50px;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  font-weight: 700;
+  text-decoration: none;
+  color: #BD8025;
+  background-color: #fff;
+  transition: 0.3s ease-in-out;
+}
+/* line 624, ../sass/custom.scss */
+.vis-desc-wrap .des a.read-more:hover {
+  color: #fff;
+  background-color: #EBC137;
+}
+
+/* line 639, ../sass/custom.scss */
+.enroll {
+  background-color: #FEF8E8;
+}
+/* line 642, ../sass/custom.scss */
+.enroll .enroll-desc-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* line 648, ../sass/custom.scss */
+.enroll .enroll-desc-wrap .des {
+  padding-left: 50px;
+}
+/* line 652, ../sass/custom.scss */
+.enroll .enroll-desc-wrap .des .con-desc {
+  max-width: 500px;
+  width: 100%;
+  padding: 60px 0;
+}
+/* line 658, ../sass/custom.scss */
+.enroll .enroll-desc-wrap .des h3 {
+  color: #EBC137;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 48px;
+  margin: 0;
+  padding-bottom: 35px;
+}
+/* line 667, ../sass/custom.scss */
+.enroll .enroll-desc-wrap .des h3 span {
+  color: #BD8025;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 48px;
+}
+/* line 675, ../sass/custom.scss */
+.enroll .enroll-desc-wrap .des p {
+  color: #231F20;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  padding-bottom: 52px;
+  margin: 0;
+}
+/* line 684, ../sass/custom.scss */
+.enroll .enroll-desc-wrap .des a.read-more {
+  max-width: fit-content;
+  display: block;
+  padding: 10px 50px;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+  background-color: #EBC137;
+  transition: 0.3s ease-in-out;
+}
+/* line 697, ../sass/custom.scss */
+.enroll .enroll-desc-wrap .des a.read-more:hover {
+  color: #fff;
+  background-color: #BD8025;
+}
+/* line 708, ../sass/custom.scss */
+.enroll .enroll-img-wrap img {
+  width: 100%;
+  margin-top: -45px;
+}
+
+/* line 726, ../sass/custom.scss */
+.footer {
+  background-color: #AAC4D1;
+}
+/* line 729, ../sass/custom.scss */
+.footer__mid {
+  padding: 100px 0 82px;
+}
+/* line 732, ../sass/custom.scss */
+.footer__mid .footer-wrpper {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  justify-content: space-between;
+}
+/* line 739, ../sass/custom.scss */
+.footer__mid .footer__logoWrp {
+  max-width: 250px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+/* line 746, ../sass/custom.scss */
+.footer__mid .footer__logoWrp img {
+  max-width: 100%;
+  margin-bottom: 25px;
+}
+/* line 751, ../sass/custom.scss */
+.footer__mid .footer__logoWrp .social-icon {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+/* line 757, ../sass/custom.scss */
+.footer__mid .footer__logoWrp .social-icon a img {
+  margin: 0;
+  width: 38px;
+  height: 38px;
+}
+/* line 764, ../sass/custom.scss */
+.footer__mid .footer__logoWrp .social-icon .social-ico__wrapper {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  padding: 10px;
+}
+/* line 770, ../sass/custom.scss */
+.footer__mid .footer__logoWrp .social-icon .social-ico__wrapper img {
+  max-width: 18px;
+}
+/* line 776, ../sass/custom.scss */
+.footer__mid .footer__logoWrp .social-icon .company-copyright {
+  margin-left: auto;
+}
+/* line 782, ../sass/custom.scss */
+.footer__mid .footer__menuNewsletter {
+  max-width: fit-content;
+  width: 100%;
+  display: flex;
+  gap: 70px;
+  justify-content: space-between;
+}
+/* line 790, ../sass/custom.scss */
+.footer__mid .menuWrap {
+  display: flex;
+  gap: 88px;
+  justify-content: center;
+  width: 100%;
+}
+/* line 796, ../sass/custom.scss */
+.footer__mid .menuWrap .hours {
+  max-width: 260px;
+  width: 100%;
+}
+/* line 800, ../sass/custom.scss */
+.footer__mid .menuWrap .hours ul {
+  background-color: #7497A5;
+  border-top-right-radius: 73px;
+  border-bottom-left-radius: 73px;
+  padding: 28px 30px 34px 33px;
+}
+/* line 807, ../sass/custom.scss */
+.footer__mid .menuWrap .hours p {
+  color: #FFF;
+  font-size: 26.36px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 28px;
+}
+/* line 816, ../sass/custom.scss */
+.footer__mid .menuWrap .contacts {
+  max-width: 275px;
+  width: 100%;
+}
+/* line 820, ../sass/custom.scss */
+.footer__mid .menuWrap .contacts p {
+  color: #FFF;
+  font-size: 26.36px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 28px;
+}
+/* line 828, ../sass/custom.scss */
+.footer__mid .menuWrap .contacts ul {
+  padding: 0;
+}
+/* line 832, ../sass/custom.scss */
+.footer__mid .menuWrap .contacts .logo-desc {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 21px;
+}
+/* line 837, ../sass/custom.scss */
+.footer__mid .menuWrap .contacts .logo-desc .social-logo {
+  max-width: 42px;
+  width: 100%;
+  height: 42px;
+  background-color: #BD8025;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* line 847, ../sass/custom.scss */
+.footer__mid .menuWrap .contacts .logo-desc .social-logo img {
+  width: 26px;
+  height: 26px;
+}
+/* line 853, ../sass/custom.scss */
+.footer__mid .menuWrap .contacts .logo-desc p {
+  color: #FFF;
+  margin: 0;
+  font-size: 16.02px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+/* line 864, ../sass/custom.scss */
+.footer__mid .menuWrap .contacts a {
+  text-decoration: none;
+}
+/* line 869, ../sass/custom.scss */
+.footer__mid .menuWrap ul {
+  max-width: 100%;
+}
+/* line 874, ../sass/custom.scss */
+.footer__mid .menuWrap li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  color: #FFF;
+  font-size: 26.36px;
+  font-weight: 700;
+  line-height: 36px;
+}
+/* line 885, ../sass/custom.scss */
+.footer__mid .menuWrap li a {
+  color: #FFF;
+  font-size: 16.02px;
+  font-weight: 400;
+  line-height: 36px;
+  margin-bottom: 6px;
+  text-decoration: none;
+}
+/* line 902, ../sass/custom.scss */
+.footer__mid .newsLetterWrap {
+  max-width: 240px;
+  width: 100%;
+}
+/* line 908, ../sass/custom.scss */
+.footer__mid .newsLetterWrap p {
+  color: #FFF;
+  font-size: 26.36px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 28px;
+}
+/* line 916, ../sass/custom.scss */
+.footer__mid .newsLetterWrap .news-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+/* line 921, ../sass/custom.scss */
+.footer__mid .newsLetterWrap .news-wrap p {
+  margin: 0;
+}
+/* line 925, ../sass/custom.scss */
+.footer__mid .newsLetterWrap .news-wrap a.news-btn {
+  max-width: fit-content;
+  display: block;
+  padding: 10px 50px;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  font-weight: 700;
+  text-decoration: none;
+  border: none;
+  color: #fff;
+  background-color: #BD8025;
+  transition: 0.3s ease-in-out;
+}
+/* line 939, ../sass/custom.scss */
+.footer__mid .newsLetterWrap .news-wrap a.news-btn:hover {
+  background-color: #EBC137;
+}
+/* line 947, ../sass/custom.scss */
+.footer__mid .newsLetterWrap .news-wrap input {
+  border-radius: 4px;
+  max-width: 200px;
+  width: 100%;
+  padding: 10px;
+  color: #3A3737;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+/* line 964, ../sass/custom.scss */
+.footer .container-fluid {
+  background-color: #7497A5;
+  padding: 35px 0;
+}
+/* line 968, ../sass/custom.scss */
+.footer .container-fluid .row {
+  margin: 0px auto;
+}
+/* line 973, ../sass/custom.scss */
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  width: 100%;
+  margin: 0px auto;
+}
+/* line 982, ../sass/custom.scss */
+.footer__bottom p {
+  color: #FFF;
+  font-size: 16.02px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 0;
+}
+
+/* line 998, ../sass/custom.scss */
+.menu {
+  display: none;
+}
+
+/* line 1002, ../sass/custom.scss */
+.menu.active {
+  display: block;
+  width: 600px;
+  padding: 50px;
+  position: absolute;
+  /* width: 100%; */
+  min-height: 400px;
+  background-color: #7497A5;
+  position: absolute;
+  z-index: 2;
+  top: 74px;
+  border-radius: 20px;
+}
+/* line 1016, ../sass/custom.scss */
+.menu.active nav {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+/* line 1024, ../sass/custom.scss */
+.menu.active a {
+  text-decoration: none;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: left;
+  color: #fff;
+}
+
+/* line 1035, ../sass/custom.scss */
+header.sticky #sideNav {
+  top: 0px;
+}
+
+/* line 1040, ../sass/custom.scss */
+#sideNav {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  right: -100vw;
+  top: 106px;
+  background: #EBC137;
+  z-index: 4;
+  transition: 0.5s;
+}
+
+/* line 1052, ../sass/custom.scss */
+nav ul li {
+  list-style: none;
+  margin: 30px 20px;
+  font-size: 24px;
+  text-align: center;
+  line-height: 34px;
+  font-weight: 600;
+}
+
+/* line 1061, ../sass/custom.scss */
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+/* line 1066, ../sass/custom.scss */
+nav ul li a:hover {
+  color: #7497A5;
+}
+
+/* line 1071, ../sass/custom.scss */
+#menuBtn {
+  width: 88px;
+  height: 100%;
+  background: #EBC137;
+  text-align: center;
+  right: 30px;
+  border-radius: 3px;
+  z-index: 3;
+  cursor: pointer;
+}
+
+/* line 1083, ../sass/custom.scss */
+#menuBtn img {
+  width: 30px;
+  margin-top: 15px;
+}
